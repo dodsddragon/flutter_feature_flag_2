@@ -1,6 +1,6 @@
-import 'package:flutter_feature_flag_1/database/dao/contact_dao.dart';
-import 'package:flutter_feature_flag_1/models/contact.dart';
-import 'package:flutter_feature_flag_1/screens/contacts/v2/contact_form.dart';
+import 'package:flutter_feature_flag_2/database/dao/contact_dao.dart';
+import 'package:flutter_feature_flag_2/models/contact.dart';
+import 'package:flutter_feature_flag_2/screens/contacts/v2/contact_form.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

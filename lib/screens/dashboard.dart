@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_feature_flag_1/components/button.dart';
-import 'package:flutter_feature_flag_1/components/centered_message.dart';
-import 'package:flutter_feature_flag_1/components/progress.dart';
-import 'package:flutter_feature_flag_1/screens/contacts/contacts_list.dart';
-import 'package:flutter_feature_flag_1/screens/contacts/v2/contacts_list.dart'
+import 'package:flutter_feature_flag_2/components/button.dart';
+import 'package:flutter_feature_flag_2/components/centered_message.dart';
+import 'package:flutter_feature_flag_2/components/progress.dart';
+import 'package:flutter_feature_flag_2/screens/contacts/contacts_list.dart';
+import 'package:flutter_feature_flag_2/screens/contacts/v2/contacts_list.dart'
     as v2;
-import 'package:flutter_feature_flag_1/screens/payments/payments_list.dart';
-import 'package:flutter_feature_flag_1/services/webclient.dart';
+import 'package:flutter_feature_flag_2/screens/payments/payments_list.dart';
+import 'package:flutter_feature_flag_2/services/webclient.dart';
 
-const _titleAppBar = 'Feature Flag AWS S3';
+const _titleAppBar = 'Feature Flag with REST';
 
 class Dashboard extends StatelessWidget {
   @override

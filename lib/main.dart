@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_feature_flag_1/screens/login_fake.dart';
+import 'package:flutter_feature_flag_2/screens/login_fake.dart';
 
 void main(){
   runApp(FlutterFeatureFlagApp());

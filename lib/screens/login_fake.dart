@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_feature_flag_1/components/editor.dart';
-import 'package:flutter_feature_flag_1/screens/dashboard.dart';
+import 'package:flutter_feature_flag_2/components/editor.dart';
+import 'package:flutter_feature_flag_2/screens/dashboard.dart';
 
 const _buttonTitle = 'Login';
 const _labelFieldPassword = 'Password';
 const _labelFieldUser = 'Username';
-const _titleAppBar = 'Login Fake';
+const _titleAppBar = 'Login Fake 2';
 
 class LoginFakeForm extends StatelessWidget {
   @override

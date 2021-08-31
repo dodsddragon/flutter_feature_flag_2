@@ -3,13 +3,16 @@ import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:http_interceptor/http_interceptor.dart';
 
+final String url = 'https://flutter-feature-flag-2.s3.us-east-2.amazonaws.com/flutter-feature-flag-2.json';
+//final String url = 'https://pocfeaturetoggleapi20210727235612.azurewebsites.net/FeatureToggle';
+
 Future<List<String>> findAll() async {
   final Client client = InterceptedClient.build(interceptors: [
     LoggingInterceptor(),
   ]);
 
   final Response response = await client
-      .get(Uri.parse('https://flutter-feature-flag-2.s3.us-east-2.amazonaws.com/flutter-feature-flag-2.json'))
+      .get(Uri.parse(url))
       .timeout(Duration(seconds: 5));
   final List<String> features = [];
 

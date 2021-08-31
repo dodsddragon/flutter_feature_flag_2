@@ -1,6 +1,6 @@
-import 'package:flutter_feature_flag_1/models/contact.dart';
+import 'package:flutter_feature_flag_2/models/contact.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:flutter_feature_flag_1/database/app_database.dart';
+import 'package:flutter_feature_flag_2/database/app_database.dart';
 
 /*
 class ContactDao {

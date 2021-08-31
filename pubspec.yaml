@@ -1,5 +1,5 @@
-name: flutter_feature_flag_1
-description: A simple feature flag (toggle) in Flutter with Firebase Remote Config
+name: flutter_feature_flag_2
+description: A simple feature flag (toggle) in Flutter with AWS S3
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

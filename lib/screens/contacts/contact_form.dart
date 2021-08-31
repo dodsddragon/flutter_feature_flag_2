@@ -1,6 +1,6 @@
-import 'package:flutter_feature_flag_1/components/editor.dart';
-import 'package:flutter_feature_flag_1/database/dao/contact_dao.dart';
-import 'package:flutter_feature_flag_1/models/contact.dart';
+import 'package:flutter_feature_flag_2/components/editor.dart';
+import 'package:flutter_feature_flag_2/database/dao/contact_dao.dart';
+import 'package:flutter_feature_flag_2/models/contact.dart';
 import 'package:flutter/material.dart';
 
 const _tituloAppBar = 'New contact';
